@@ -4,6 +4,9 @@
   background-color: #02796a;
 }
 
+#whatsapp{
+  display: none;
+}
 .float {
   position: fixed;
   width: 60px;

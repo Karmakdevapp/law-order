@@ -1,9 +1,23 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 
-.hero {
-  background-color: #02796a;
+:root{
+  --primaryGreen: #02796a;
 }
 
+.primaryGreen{
+  background-color: var(--primaryGreen);
+}
+.hero {
+  background-color: var(--primaryGreen);
+}
+
+.jumbotron{
+  background: url('./assets/lawyer.jpeg') no-repeat ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
 #whatsapp{
   display: none;
 }
